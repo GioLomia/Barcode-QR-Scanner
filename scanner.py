@@ -10,7 +10,6 @@ from a08_upc_start import *
 from bar_detector import *
 import tkinter
 import tkinter.filedialog as filer
-
 class Scanner:
     """
     This is a barcode scanner class that works as a scanner of different data types.

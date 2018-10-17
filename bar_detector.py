@@ -3,7 +3,7 @@
 # Username: lomiag
 # #
 # Assignment: Project 1
-##
+#
 #Collection of functions used for barcode reading operations
 ######################################################################
 from PIL import Image
