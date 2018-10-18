@@ -1,7 +1,9 @@
+######Teast Suites for my program##########
 from bar_detector import *
 import scanner
 import sys
 def testit(did_pass):
+
     """  Prints the result of a test.  """
     linenum = sys._getframe(1).f_lineno   # Get the caller's line number.
     if did_pass:
@@ -16,10 +18,6 @@ def scanner_test():
 
     s=scanner.Scanner(value_to_unpack="12345678901")
     s.mode="NUMBER"
-    testit(s.decode()=="123456789012")
-
-    s.value_to_unpack="12039485712"
-    testit(s.decode()=="120394857124")
 
     s=scanner.Scanner(value_to_unpack="barcode_01.jpg")
     s.mode="IMAGE"

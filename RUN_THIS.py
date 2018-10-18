@@ -1,5 +1,5 @@
 """
-
+The compiler file that runs everything.
 """
 import scanner
 import tkinter
