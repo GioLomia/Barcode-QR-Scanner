@@ -4,7 +4,7 @@
 # #
 # Assignment: Project 1
 #
-#Class defenitiion of the Scanner and GUI classes
+#Class defenitiions of the Scanner and GUI classes
 #######################################################################
 from a08_upc_start import *
 from bar_detector import *
